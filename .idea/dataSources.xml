@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3119148239">
+    <data-source source="LOCAL" name="Rails DK-BlackJack-Wapp: development" uuid="0326385d-c720-46f5-9420-ba192dd3f770">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5433/DK-BlackJack-Wapp_development</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>dfcedfcddfc1dfccdfcbdfc7dfc3dfc6dfd3df9edfcfdfdcdfcb</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails DK-BlackJack-Wapp: test" uuid="8be98c89-5d71-4516-8004-c275fe1e228d">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5433/DK-BlackJack-Wapp_test</jdbc-url>
+      <user-name>postgres</user-name>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails DK-BlackJack-Wapp: production" uuid="2a3f8619-a6d4-4952-8585-afb43f2c2e9e">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:DK-BlackJack-Wapp_production</jdbc-url>
+      <user-name>DK-BlackJack-Wapp</user-name>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

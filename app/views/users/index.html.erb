@@ -1,0 +1,29 @@
+<div class="center">
+<h1>Blackjack Leaderboard</h1>
+
+<h2>
+Welcome to DK's Blackjack,
+<%= @user ? @user.name : "" %>.
+</h2>
+
+<table class="leader-table">
+  <tr>
+    <th>Player</th>
+		<th> Wins </th>
+    <th>Losses</th>
+		<th> Ties </th>
+  </tr>
+
+<% @users.each do |user| %>
+  <tr>
+    <td class="left-align-leader"><%= user.name %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+<%= link_to 'Play a new game', :controller => "games", :action => "setup" %>
+
+<br />
+<%= link_to 'Logout', :action => "logout" %>
+</div>

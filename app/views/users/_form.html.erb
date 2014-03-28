@@ -1,0 +1,27 @@
+
+<%= simple_form_for(@user) do |f|%>
+<div class="center">
+    <% if @user.errors.any? %>
+        <div id="error_explanation">
+          <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
+          <ul>
+            <% @user.errors.full_messages.each do |msg| %>
+                <li><%= msg %></li>
+            <% end %>
+          </ul>
+        </div>
+    <% end %>
+
+  <div class="form-inputs">
+    <%= f.input :name, error: false%>
+    <%= f.input :password, error: false%>
+  </div>
+<br>
+
+  <div class="form-actions">
+    <%= button_tag(type: 'submit', class: "btn btn-success") do %>
+        <i class="glyphicon glyphicon-pencil"></i> Register
+    <% end %>
+  </div>
+</div>
+<% end %>

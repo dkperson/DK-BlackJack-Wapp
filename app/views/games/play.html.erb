@@ -1,0 +1,50 @@
+﻿<div class="center">
+<h1> BlackJack </h1>
+
+<h2> Your hand</h2>
+  <div class="hand-container">
+    <% session[:players].first.hand.each do |card| %>
+        <div class="hand-box">
+          <%= deck_card_to_view(card) %>
+        </div>
+    <% end %>
+    <br> card values: <%= session[:players].first.hand_total %>
+    <br> value of hand: <%= session[:players].first.display_total %>
+  </div>
+
+  <h2> Dealer's hand </h2>
+      <div class="hand-container">
+       <% if session[:players].first.status == :stand%>
+        <% session[:dealer].hand.each do |card| %>
+              <div class="hand-box">
+                <%= deck_card_to_view(card) %>
+              </div>
+        <% end %>
+        <br>card values: <%= session[:dealer].hand_total %>
+        <br>value of hand: <%= session[:dealer].display_total %>
+        <% else %>
+            <div class="hand-box">
+              <%= deck_card_to_view(session[:dealer].show_first) %>
+              <%= image_tag "Deck/deck_cover.png", size: "150" %>
+            </div>
+        <% end %>
+       </div>
+<% if [:blackjack, :bust, :stand].include?(session[:players].first.status)%>
+    <p>
+      The game is done!
+
+      <% 	dealer = session[:dealer]
+            players = session[:players]
+            winning_players = dealer.winners(players)
+            result = winning_players.include?(players.first) ? "WON!" : "did not win."
+      %>
+      <%= result %>
+    </p>
+    See your scores on the
+    <%= link_to 'leaderboard', :controller => "users", :action => "index" %>
+<% else %>
+    <p> <%= @user.name %>, do you want to: </p>
+      <h3><%= link_to 'hit?', :controller => "games", :action => "hit" %></h3>
+      <h3><%= link_to 'stand?', :controller => "games", :action => "stand" %></h3>
+<% end %>
+</div>
