@@ -19,8 +19,9 @@
     <data-source source="LOCAL" name="Rails DK-BlackJack-Wapp: production" uuid="2a3f8619-a6d4-4952-8585-afb43f2c2e9e">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:DK-BlackJack-Wapp_production</jdbc-url>
-      <user-name>DK-BlackJack-Wapp</user-name>
+      <jdbc-url>jdbc:postgresql://ec2-54-204-27-119.compute-1.amazonaws.com:5432/d8fbkh7d9dngss</jdbc-url>
+      <user-name>nbracdzkzpsgls</user-name>
+      <user-password>dfe3dfe3dfcbdffbdffcdfe2dfefdffcdf9bdfc7dfffdfdedffcdfd2dfe6dfe7dfcddfc4dfe3dfdddf99dfcddfe2dfc4dfdcdfe9</user-password>
       <libraries />
     </data-source>
   </component>

@@ -16,7 +16,6 @@ gem 'pg'
 gem 'simple_form'
 gem 'factory_girl_rails'
 gem "bcrypt-ruby", :require => "bcrypt"
-gem 'protected_attributes'
 # The asset_sync gem is WELL worth using
 # but you should read more about it before deciding
 # https://github.com/rumblelabs/asset_sync

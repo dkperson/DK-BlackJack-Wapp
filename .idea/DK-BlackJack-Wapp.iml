@@ -122,7 +122,6 @@
     <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.6.1, ruby-1.9.3-p231) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="pg (v0.17.1, ruby-1.9.3-p231) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="polyglot (v0.3.4, ruby-1.9.3-p231) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="protected_attributes (v1.0.7, ruby-1.9.3-p231) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v1.5.2, ruby-1.9.3-p231) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-test (v0.6.2, ruby-1.9.3-p231) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails (v4.0.3, ruby-1.9.3-p231) [gem]" level="application" />
