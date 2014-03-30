@@ -56,7 +56,7 @@ class CredentialsController < ApplicationController
 				# try to find a user with the credential name
 				user = User.find_by_name(@credential.name)
 				password_ok = user ? (user.password == @credential.password) : false
-				if user == nil then # not registered user
+				if user == nil # not registered user
 					format.html { redirect_to new_user_path, alert: "#{@credential.name}, you are not registered, please register!" } # make them register
 				elsif user && password_ok then
 					session[:user_id] = user.id

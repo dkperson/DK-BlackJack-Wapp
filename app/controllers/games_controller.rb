@@ -82,17 +82,13 @@ class GamesController < ApplicationController
   end
 
   def setup # for a new game
-     #@user = User.find(session[:user_id])
-     #@game = Game.create
-     #@game.users << @user
-     #session[:game_id] = @game.id
-
+    @user = User.find(session[:user_id])
     @dealer = Play::Dealer.new
     @players = []
-    @players << Play::Player.new("Player ")
+    @players << Play::Player.new(@user.name)
 
     @dealer.deal(@players)
-    #puts "PLAYERS #{@players.first.inspect}"
+
 
     session[:dealer] = @dealer
     session[:players] = @players
@@ -102,6 +98,8 @@ class GamesController < ApplicationController
 
   def play
     @user = User.find(session[:user_id])
+    @dealer = session[:dealer]
+    @players = session[:players]
   end
 
   def hit

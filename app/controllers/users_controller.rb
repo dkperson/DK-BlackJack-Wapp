@@ -51,7 +51,9 @@ class UsersController < ApplicationController
 
   def create
     @user = User.new(user_params)
-
+    @user.wins = 0
+    @user.losses = 0
+    @user.ties = 0
     respond_to do |format|
       if @user.save
         format.html {
@@ -105,7 +107,7 @@ end
 
 
   def user_params
-    params.require(:user).permit(:name, :password)
+    params.require(:user).permit(:name,:password)
   end
 
 

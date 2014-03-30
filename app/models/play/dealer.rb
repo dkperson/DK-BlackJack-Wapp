@@ -25,22 +25,21 @@ class Play::Dealer < Play::Player
   end
 
   def winners(players)
-    winning_players = []
+  players_results = Hash.new
     players.each do |player|
-      next if player.status == :bust
-      if status == :bust
-        winning_players << player
-      elsif player.hand_total > hand_total
-        winning_players << player
+      if player.hand_total < hand_total && status != :bust || player.status == :bust
+        players_results[player] = "loss"
       elsif player.hand_total == hand_total
-        push(player)
-        consolidate_split_hands([player])
+        players_results[player] = "tie"
+        #push(player)
+        #consolidate_split_hands([player])
+      elsif player.hand_total > hand_total || status == :bust
+        players_results[player] = "won"
       end
     end
-
-    winning_players.each { |player| payout(player) }
-    consolidate_split_hands(winning_players)
-    winning_players
+    #players_results.each { |player| payout(player) }
+    #consolidate_split_hands(players_results)
+    players_results
   end
 
   def payout(player)

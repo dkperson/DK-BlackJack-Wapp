@@ -1,29 +1,30 @@
 <div class="center">
 <h1>Blackjack Leaderboard</h1>
 
-<h2>
-Welcome to DK's Blackjack,
-<%= @user ? @user.name : "" %>.
-</h2>
+<h2>Welcome to DK's Blackjack,<%= @user.name %></h2>
 
 <table class="leader-table">
   <tr>
     <th>Player</th>
-		<th> Wins </th>
+	<th> Wins </th>
     <th>Losses</th>
-		<th> Ties </th>
+	<th> Ties </th>
   </tr>
 
 <% @users.each do |user| %>
   <tr>
     <td class="left-align-leader"><%= user.name %></td>
+    <td class="center"><%= user.wins %></td>
+    <td class="center"><%= user.losses %></td>
+    <td class="center"><%= user.ties %></td>
   </tr>
 <% end %>
 </table>
-
-<br />
-<%= link_to 'Play a new game', :controller => "games", :action => "setup" %>
-
-<br />
-<%= link_to 'Logout', :action => "logout" %>
+<br>
+  <%= link_to setup_games_path, :class => "btn btn-success" do %>
+      <i class="glyphicon glyphicon-play"></i> Play
+  <% end %>
+ <%= link_to logout_users_path, :class => "btn btn-danger" do %>
+      <i class="glyphicon glyphicon-log-out"></i> Logout
+ <% end %>
 </div>

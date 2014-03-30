@@ -20,7 +20,7 @@ development:
   database: DK-BlackJack-Wapp_development
   pool: 5
   username: postgres
-  password: dgkfamily4eva
+  password: 
   port: 5433
 
   # Connect on a TCP socket. Omitted by default since the client uses a

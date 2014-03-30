@@ -1,27 +1,14 @@
 ﻿<div class="center">
 <h1> BlackJack </h1>
-
-<h2> Your hand</h2>
-  <div class="hand-container">
-    <% session[:players].first.hand.each do |card| %>
-        <div class="hand-box">
-          <%= deck_card_to_view(card) %>
-        </div>
-    <% end %>
-    <br> card values: <%= session[:players].first.hand_total %>
-    <br> value of hand: <%= session[:players].first.display_total %>
-  </div>
-
   <h2> Dealer's hand </h2>
       <div class="hand-container">
-       <% if session[:players].first.status == :stand%>
-        <% session[:dealer].hand.each do |card| %>
+       <% if @players.first.status == :stand%>
+        <% @dealer.hand.each do |card| %>
               <div class="hand-box">
                 <%= deck_card_to_view(card) %>
               </div>
         <% end %>
-        <br>card values: <%= session[:dealer].hand_total %>
-        <br>value of hand: <%= session[:dealer].display_total %>
+        <br><h3>Value of hand: <%= @dealer.display_total %></h3>
         <% else %>
             <div class="hand-box">
               <%= deck_card_to_view(session[:dealer].show_first) %>
@@ -29,22 +16,56 @@
             </div>
         <% end %>
        </div>
-<% if [:blackjack, :bust, :stand].include?(session[:players].first.status)%>
-    <p>
-      The game is done!
 
-      <% 	dealer = session[:dealer]
-            players = session[:players]
-            winning_players = dealer.winners(players)
-            result = winning_players.include?(players.first) ? "WON!" : "did not win."
+  <% if [:blackjack, :bust, :stand].include?(@players.first.status)%>
+      <h3>See your score!</h3>
+      <%= link_to  users_path, :class => "btn btn-success" do %>
+          <i class="glyphicon glyphicon-list-alt"></i> Leaderboard!
+      <% end %>
+  <% end %>
+
+  <h2> Your hand</h2>
+  <div class="hand-container">
+    <% @players.first.hand.each do |card| %>
+        <div class="hand-box">
+          <%= deck_card_to_view(card) %>
+        </div>
+    <% end %>
+    <br> <h3> Value of hand: <%= @players.first.display_total %></h3>
+  </div>
+<% if [:blackjack, :bust, :stand].include?(@players.first.status)%>
+      <% 	dealer = @dealer
+            players_results = dealer.winners(@players)
+            result = players_results[@players.first]
+         if result == "won"
+           @user.wins += 1
+           @user.save
+         elsif result == "loss"
+           @user.losses += 1
+           @user.save
+         elsif result == "tie"
+           @user.ties += 1
+           @user.save
+         end
       %>
-      <%= result %>
-    </p>
-    See your scores on the
-    <%= link_to 'leaderboard', :controller => "users", :action => "index" %>
+      <% if result == "won" %>
+          <h3>You have won!</h3>
+      <% elsif result == "loss" %>
+         <h3>You have lost!</h3>
+      <% elsif result == "tie" %>
+         <h3> You have tied!</h3>
+      <% end %>
+
+      <%= link_to setup_games_path, :class => "btn btn-success" do %>
+          <i class="glyphicon glyphicon-repeat"></i> Play again?
+      <% end %>
 <% else %>
-    <p> <%= @user.name %>, do you want to: </p>
-      <h3><%= link_to 'hit?', :controller => "games", :action => "hit" %></h3>
-      <h3><%= link_to 'stand?', :controller => "games", :action => "stand" %></h3>
+      <br>
+      <%= link_to hit_games_path, :class => "btn btn-warning" do %>
+          <i class="glyphicon glyphicon-plus"></i> Hit
+      <% end %>
+      <%= link_to stand_games_path, :class => "btn btn-danger" do %>
+          <i class="glyphicon glyphicon-record"></i> Stand
+      <% end %>
 <% end %>
 </div>

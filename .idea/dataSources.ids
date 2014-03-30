@@ -2354,6 +2354,9 @@
       <column name="id" sqlType="serial" length="10" precision="0" nullable="false" jdbcType="4" def="bmV4dHZhbCgndXNlcnNfaWRfc2VxJzo6cmVnY2xhc3Mp" autoIncrement="true"/>
       <column name="name" sqlType="varchar" length="255" precision="0" nullable="true" jdbcType="12"/>
       <column name="password" sqlType="varchar" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <column name="wins" sqlType="int4" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <column name="losses" sqlType="int4" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <column name="ties" sqlType="int4" length="10" precision="0" nullable="true" jdbcType="4"/>
       <column name="created_at" sqlType="timestamp" length="29" precision="6" nullable="false" jdbcType="93"/>
       <column name="updated_at" sqlType="timestamp" length="29" precision="6" nullable="false" jdbcType="93"/>
       <primary-key name="users_pkey" columns="id"/>
