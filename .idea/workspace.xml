@@ -1,27 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed098921-5010-4946-90df-f239cd26d1aa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/DK-BlackJack-Wapp.iml" afterPath="$PROJECT_DIR$/.idea/DK-BlackJack-Wapp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/shared/_footer.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/shared/_footer.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/shared/_header.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/shared/_header.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/credential.rb" afterPath="$PROJECT_DIR$/app/models/credential.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/credentials_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/credentials_controller.rb" />
+    <list default="true" id="ed098921-5010-4946-90df-f239cd26d1aa" name="Default" comment="Version 1.0&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/play/dealer.rb" afterPath="$PROJECT_DIR$/app/models/play/dealer.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/play/deck_card.rb" afterPath="$PROJECT_DIR$/app/models/play/deck_card.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/play/deck_stack.rb" afterPath="$PROJECT_DIR$/app/models/play/deck_stack.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/games_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/games_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/index.html.erb" afterPath="$PROJECT_DIR$/app/views/users/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/credentials/new.html.erb" afterPath="$PROJECT_DIR$/app/views/credentials/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/games/play.html.erb" afterPath="$PROJECT_DIR$/app/views/games/play.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/play/player.rb" afterPath="$PROJECT_DIR$/app/models/play/player.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/welcome.html.erb" afterPath="$PROJECT_DIR$/app/views/users/welcome.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DK-BlackJack-Wapp.iws" />
@@ -35,7 +18,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/DK-BlackJack-Wapp@Development__DK_BlackJack_Wapp.coverage" NAME="Development: DK-BlackJack-Wapp Coverage Results" MODIFIED="1395535788532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DK-BlackJack-Wapp" />
-    <SUITE FILE_PATH="coverage/DK-BlackJack-Wapp@db_schema_dump__DK_BlackJack_Wapp.coverage" NAME="db:schema:dump: DK-BlackJack-Wapp Coverage Results" MODIFIED="1395880928558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DK-BlackJack-Wapp" />
+    <SUITE FILE_PATH="coverage/DK-BlackJack-Wapp@db_schema_dump__DK_BlackJack_Wapp.coverage" NAME="db:schema:dump: DK-BlackJack-Wapp Coverage Results" MODIFIED="1396144867671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DK-BlackJack-Wapp" />
     <SUITE FILE_PATH="coverage/DK-BlackJack-Wapp@db_seed__DK_BlackJack_Wapp.coverage" NAME="db:seed: DK-BlackJack-Wapp Coverage Results" MODIFIED="1395392567812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DK-BlackJack-Wapp" />
     <SUITE FILE_PATH="coverage/DK-BlackJack-Wapp@db_migrate__1_.coverage" NAME="db:migrate (1) Coverage Results" MODIFIED="1395356301581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DK-BlackJack-Wapp" />
     <SUITE FILE_PATH="coverage/DK-BlackJack-Wapp@db_schema_cache_clear__DK_BlackJack_Wapp.coverage" NAME="db:schema:cache:clear: DK-BlackJack-Wapp Coverage Results" MODIFIED="1395356520519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DK-BlackJack-Wapp" />
@@ -46,7 +29,7 @@
     <SUITE FILE_PATH="coverage/DK-BlackJack-Wapp@assets_environment__DK_BlackJack_Wapp.coverage" NAME="assets:environment: DK-BlackJack-Wapp Coverage Results" MODIFIED="1395357952327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DK-BlackJack-Wapp" />
     <SUITE FILE_PATH="coverage/DK-BlackJack-Wapp@assets_precompile__DK_BlackJack_Wapp.coverage" NAME="assets:precompile: DK-BlackJack-Wapp Coverage Results" MODIFIED="1395392604134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DK-BlackJack-Wapp" />
     <SUITE FILE_PATH="coverage/DK-BlackJack-Wapp@db_schema_load__DK_BlackJack_Wapp.coverage" NAME="db:schema:load: DK-BlackJack-Wapp Coverage Results" MODIFIED="1396068750979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DK-BlackJack-Wapp" />
-    <SUITE FILE_PATH="coverage/DK-BlackJack-Wapp@Development.coverage" NAME="Development Coverage Results" MODIFIED="1396131436989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DK-BlackJack-Wapp" />
+    <SUITE FILE_PATH="coverage/DK-BlackJack-Wapp@Development.coverage" NAME="Development Coverage Results" MODIFIED="1396144717853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DK-BlackJack-Wapp" />
     <SUITE FILE_PATH="coverage/DK-BlackJack-Wapp@assets_clean_keep___DK_BlackJack_Wapp.coverage" NAME="assets:clean[keep]: DK-BlackJack-Wapp Coverage Results" MODIFIED="1395392596668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DK-BlackJack-Wapp" />
     <SUITE FILE_PATH="coverage/DK-BlackJack-Wapp@db_migrate__DK_BlackJack_Wapp.coverage" NAME="db:migrate: DK-BlackJack-Wapp Coverage Results" MODIFIED="1396068464740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DK-BlackJack-Wapp" />
     <SUITE FILE_PATH="coverage/DK-BlackJack-Wapp@assets_clobber__DK_BlackJack_Wapp.coverage" NAME="assets:clobber: DK-BlackJack-Wapp Coverage Results" MODIFIED="1395357933254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DK-BlackJack-Wapp" />
@@ -65,10 +48,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="play.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/games/play.html.erb">
+      <file leaf-file-name="user.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="24" selection-start="715" selection-end="715" vertical-scroll-proportion="-14.705882" vertical-offset="0" max-vertical-offset="1900">
+            <state line="0" column="31" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="643">
               <folding />
             </state>
           </provider>
@@ -83,10 +66,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.yml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="12" selection-start="604" selection-end="604" vertical-scroll-proportion="0.5054432" vertical-offset="225" max-vertical-offset="1500">
+            <state line="52" column="25" selection-start="1618" selection-end="1618" vertical-scroll-proportion="0.0" vertical-offset="936" max-vertical-offset="1700">
               <folding />
             </state>
           </provider>
@@ -95,7 +78,7 @@
       <file leaf-file-name="games_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/games_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="32" selection-start="2273" selection-end="2273" vertical-scroll-proportion="0.0" vertical-offset="1125" max-vertical-offset="3550">
+            <state line="101" column="32" selection-start="2273" selection-end="2273" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="3550">
               <folding />
             </state>
           </provider>
@@ -114,15 +97,6 @@
         <entry file="file://$PROJECT_DIR$/app/models/play/deck_card.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="550">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="2" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1950">
               <folding />
             </state>
           </provider>
@@ -149,7 +123,16 @@
       <file leaf-file-name="users_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="115" column="16" selection-start="2526" selection-end="2539" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3125">
+            <state line="36" column="0" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0" vertical-offset="1200" max-vertical-offset="3125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/schema.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="21" selection-start="1324" selection-end="1324" vertical-scroll-proportion="0.0" vertical-offset="482" max-vertical-offset="1125">
               <folding />
             </state>
           </provider>
@@ -172,7 +155,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="master2-local" />
       </map>
     </option>
   </component>
@@ -212,9 +195,7 @@
         <option value="$PROJECT_DIR$/app/views/users/_login_form.html.erb" />
         <option value="$PROJECT_DIR$/app/models/credential.rb" />
         <option value="$PROJECT_DIR$/app/views/credentials/new.html.erb" />
-        <option value="$PROJECT_DIR$/db/schema.rb" />
         <option value="$PROJECT_DIR$/app/controllers/credentials_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/models/blackjack/deck_card.rb" />
         <option value="$PROJECT_DIR$/app/models/blackjack/player.rb" />
         <option value="$PROJECT_DIR$/app/models/blackjack/deck_stack.rb" />
@@ -230,6 +211,8 @@
         <option value="$PROJECT_DIR$/app/views/layouts/shared/_header.html.erb" />
         <option value="$PROJECT_DIR$/app/views/users/index.html.erb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/db/schema.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
       </list>
     </option>
   </component>
@@ -302,6 +285,62 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DK-BlackJack-Wapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DK-BlackJack-Wapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="log" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DK-BlackJack-Wapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DK-BlackJack-Wapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DK-BlackJack-Wapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DK-BlackJack-Wapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DK-BlackJack-Wapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DK-BlackJack-Wapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -321,6 +360,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="locales" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DK-BlackJack-Wapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DK-BlackJack-Wapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -551,7 +604,7 @@
       <recent name="C:\RubyStack\projects\DK-BlackJack-Wapp\db\migrate" />
     </key>
   </component>
-  <component name="RunManager" selected="Rails.Development">
+  <component name="RunManager" selected="Rake.db:schema:dump: DK-BlackJack-Wapp">
     <configuration default="false" name="Rails console: DK-BlackJack-Wapp" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
       <module name="DK-BlackJack-Wapp" />
       <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -786,9 +839,9 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Rake.db:schema:load: DK-BlackJack-Wapp" />
-        <item index="1" class="java.lang.String" itemvalue="Rake.db:migrate: DK-BlackJack-Wapp" />
-        <item index="2" class="java.lang.String" itemvalue="Rake.db:schema:dump: DK-BlackJack-Wapp" />
+        <item index="0" class="java.lang.String" itemvalue="Rake.db:schema:dump: DK-BlackJack-Wapp" />
+        <item index="1" class="java.lang.String" itemvalue="Rake.db:schema:load: DK-BlackJack-Wapp" />
+        <item index="2" class="java.lang.String" itemvalue="Rake.db:migrate: DK-BlackJack-Wapp" />
         <item index="3" class="java.lang.String" itemvalue="IRB console.Rails console: DK-BlackJack-Wapp" />
       </list>
     </recent_temporary>
@@ -869,7 +922,11 @@
       <created>1396048700086</created>
       <updated>1396048700086</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Version 1.0">
+      <created>1396142914875</created>
+      <updated>1396142914875</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -882,9 +939,9 @@
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3729373" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23748669" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2882288" sideWeight="0.4754536" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.48722044" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5122471" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -945,7 +1002,8 @@
     <MESSAGE value="added play" />
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Initial Commit&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit&#10;" />
+    <MESSAGE value="Version 1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -953,11 +1011,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="1" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.60225445" vertical-offset="918" max-vertical-offset="2380" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="16" selection-start="127" selection-end="127" vertical-scroll-proportion="0.15060242" vertical-offset="0" max-vertical-offset="664" />
@@ -1069,33 +1122,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="42" selection-start="1254" selection-end="1254" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/credentials_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="105" column="36" selection-start="2859" selection-end="2859" vertical-scroll-proportion="0.0" vertical-offset="2149" max-vertical-offset="2800">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/b55eddf0/0326385d-c720-46f5-9420-ba192dd3f770/DK-BlackJack-Wapp_development.public.users">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="23" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
           <folding />
         </state>
       </provider>
@@ -1254,6 +1283,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/shared/_header.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="9" selection-start="425" selection-end="425" vertical-scroll-proportion="0.61576355" vertical-offset="0" max-vertical-offset="609">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/games/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/games/play.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="24" selection-start="715" selection-end="715" vertical-scroll-proportion="-14.705882" vertical-offset="0" max-vertical-offset="1900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/games_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="32" selection-start="2273" selection-end="2273" vertical-scroll-proportion="0.0" vertical-offset="2025" max-vertical-offset="3550">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/play/player.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2075">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/play/deck_card.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="550">
@@ -1268,51 +1337,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/shared/_header.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="9" selection-start="425" selection-end="425" vertical-scroll-proportion="0.61576355" vertical-offset="0" max-vertical-offset="609">
-          <folding />
-        </state>
+    <entry file="dbDummy://dbtable:/b55eddf0/0326385d-c720-46f5-9420-ba192dd3f770/DK-BlackJack-Wapp_development.public.users">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="16" selection-start="2526" selection-end="2539" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/play/player.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2075">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/games/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/games_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="32" selection-start="2273" selection-end="2273" vertical-scroll-proportion="0.0" vertical-offset="2025" max-vertical-offset="3550">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/welcome.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="2" selection-start="238" selection-end="376" vertical-scroll-proportion="-4.4117646" vertical-offset="0" max-vertical-offset="375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/games/play.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="24" selection-start="715" selection-end="715" vertical-scroll-proportion="-14.705882" vertical-offset="0" max-vertical-offset="1900">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
           <folding />
         </state>
       </provider>
@@ -1324,9 +1354,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/welcome.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="2" selection-start="238" selection-end="376" vertical-scroll-proportion="-4.4117646" vertical-offset="0" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0" vertical-offset="1200" max-vertical-offset="3125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="21" selection-start="1324" selection-end="1324" vertical-scroll-proportion="0.0" vertical-offset="482" max-vertical-offset="1125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="12" selection-start="604" selection-end="604" vertical-scroll-proportion="0.5054432" vertical-offset="225" max-vertical-offset="1500">
+        <state line="52" column="25" selection-start="1618" selection-end="1618" vertical-scroll-proportion="0.0" vertical-offset="936" max-vertical-offset="1700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="31" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="643">
           <folding />
         </state>
       </provider>

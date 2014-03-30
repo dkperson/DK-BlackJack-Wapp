@@ -29,9 +29,9 @@ ActiveRecord::Schema.define(version: 20140321231320) do
   create_table "users", force: true do |t|
     t.string   "name"
     t.string   "password"
-    t.string   "wins"
-    t.string   "losses"
-    t.string   "ties"
+    t.integer  "wins"
+    t.integer  "losses"
+    t.integer  "ties"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
