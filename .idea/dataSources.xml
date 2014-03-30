@@ -14,13 +14,12 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://127.0.0.1:5433/DK-BlackJack-Wapp_test</jdbc-url>
       <user-name>postgres</user-name>
-      <user-password>dfcedfcddfc1dfccdfcbdfc7dfc3dfc6dfd3df9edfcfdfdcdfcb</user-password>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails DK-BlackJack-Wapp: production" uuid="2a3f8619-a6d4-4952-8585-afb43f2c2e9e">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/DK-BlackJack-Wapp_development</jdbc-url>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/DK-BlackJack-Wapp_production</jdbc-url>
       <user-name>postgres</user-name>
       <libraries />
     </data-source>
