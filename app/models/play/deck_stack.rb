@@ -25,7 +25,7 @@ class Play::DeckStack
   end
 
   def take_card
-    raise "No cards left in deck!" if @decks.length == 0
+    raise "No cards are left in the deck!" if @decks.length == 0
     @decks.pop
   end
 end

@@ -12,11 +12,12 @@
         <% else %>
             <div class="hand-box">
               <%= deck_card_to_view(session[:dealer].show_first) %>
-              <%= image_tag "Deck/deck_cover.png", size: "150" %>
+            </div>
+            <div class="hand-box">
+            <%= image_tag "Deck/deck_cover.png", size: "150" %>
             </div>
         <% end %>
        </div>
-
   <% if [:blackjack, :bust, :stand].include?(@players.first.status)%>
       <h3>See your score!</h3>
       <%= link_to  users_path, :class => "btn btn-success" do %>
@@ -37,7 +38,7 @@
       <% 	dealer = @dealer
             players_results = dealer.winners(@players)
             result = players_results[@players.first]
-         if result == "won"
+         if result == "win"
            @user.wins += 1
            @user.save
          elsif result == "loss"
@@ -48,7 +49,7 @@
            @user.save
          end
       %>
-      <% if result == "won" %>
+      <% if result == "win" %>
           <h3>You have won!</h3>
       <% elsif result == "loss" %>
          <h3>You have lost!</h3>

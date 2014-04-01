@@ -1,22 +1,16 @@
 class Play::Player
   attr_reader :name
-  attr_accessor :hand, :stand, :bet, :parent, :won
+  attr_accessor :hand, :stand
 
   def initialize(name)
     @name = name
     @hand = []
-    @stand = false
-    @bet = 0
-    @won = 0
   end
 
-  def double_bet
-    @bet = bet*2
-  end
+
 
   def hand_total
     raise "No cards in hand" if hand.length == 0
-
     total = hand.map(&:value).reduce(:+)
     if has_ace? && total <= 11
       total += 10
@@ -55,23 +49,6 @@ class Play::Player
   end
 
   def play_options
-    options = ["hit","stand"]
-    if hand.length == 2 
-      options << "double"
-      if hand[0].face == hand[1].face
-        options << "split"
-      end
-    end
-    options
-  end
-end
-
-
-class Play::SplitPlayer < Play::Player
-  attr_reader :parent
-
-  def initialize(name,parent)
-    super(name)
-    @parent = parent
+    %w{hit stand}
   end
 end
